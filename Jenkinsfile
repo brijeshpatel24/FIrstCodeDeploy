@@ -31,5 +31,8 @@ pipeline {
                 echo 'Save the assemblies generated from the compilation' 
             }
         }
+	stage('Publish Artifacts') {
+            steps {
+                echo 'Save the assemblies generated from the compilation' 
     }
 }
